@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.siteinterface">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="Shoping" />
+        <activity
+            android:name=".socialMenu"
+            android:label="Social" />
+        <activity
+            android:name=".learningMenu"
+            android:label="Udacity" />
+        <activity
+            android:name=".wikipedia"
+            android:label="Wikipedia" />
+        <activity
+            android:name=".videoMenu"
+            android:label="Youtube" />
+        <activity
+            android:name=".bill"
+            android:label="Paytm" />
+        <activity
+            android:name=".musicMenu"
+            android:label="Music" />
+        <activity
+            android:name=".newsMenu"
+            android:label="News" />
+        <activity
+            android:name=".mailMenu"
+            android:label="Mail" />
+        <activity
+            android:name=".travelMenu"
+            android:label="Travel" />
+        <activity
+            android:name=".maps"
+            android:label="Maps" />
+        <activity
+            android:name=".medicalMenu"
+            android:label="Medical Services" />
+        <activity
+            android:name=".rechargeMenu"
+            android:label="Recharge" />
+        <activity
+            android:name=".weather"
+            android:label="Weather" />
+        <activity
+            android:name=".openAmazon"
+            android:label="Amazon" />
+        <activity
+            android:name=".openFlipkart"
+            android:label="Flipkart" />
+        <activity
+            android:name=".openSnapdeal"
+            android:label="Snapdeal" />
+        <activity
+            android:name=".openGmail"
+            android:label="Gmail" />
+        <activity
+            android:name=".openOutlook"
+            android:label="Outlook" />
+        <activity
+            android:name=".openYahoo"
+            android:label="Yahoo Mail" />
+        <activity
+            android:name=".openWebmd"
+            android:label="Webmd" />
+        <activity
+            android:name=".openPracto"
+            android:label="Practo" />
+        <activity
+            android:name=".openSaavn"
+            android:label="Saavn" />
+        <activity
+            android:name=".openGaana"
+            android:label="Gaana" />
+        <activity
+            android:name=".openHungama"
+            android:label="Hungama" />
+        <activity
+            android:name=".openBbc"
+            android:label="BBC" />
+        <activity
+            android:name=".openYahooNews"
+            android:label="Yahoo News" />
+        <activity
+            android:name=".openGoogleNews"
+            android:label="Google News" />
+        <activity
+            android:name=".openPaytm"
+            android:label="Paytm" />
+        <activity
+            android:name=".openFreecharge"
+            android:label="Freecharge" />
+        <activity
+            android:name=".openFacebook"
+            android:label="Facebook" />
+        <activity
+            android:name=".openTwitter"
+            android:label="Twitter" />
+        <activity
+            android:name=".openMakeMyTrip"
+            android:label="MakeMyTrip" />
+        <activity
+            android:name=".openTrivago"
+            android:label="Trivago" />
+        <activity
+            android:name=".openYatra"
+            android:label="Yatra" />
+        <activity
+            android:name=".openGoibibo"
+            android:label="Goibibo" />
+        <activity
+            android:name=".navDraw"
+            android:label="@string/title_activity_nav_draw"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
